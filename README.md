@@ -1,2 +1,0 @@
-# khotkevych.github.io
-lalala

@@ -1,1 +1,76 @@
-"Hello Katya" 
+<!DOCTYPE html>
+<html style="overflow: hidden; height: 100%;" class="fp-enabled" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Hello, Oh My Look!</title>
+
+    <link rel="stylesheet" type="text/css" href="ohmylook/jquery.css">
+
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+
+    <script src="ohmylook/jquery_003.js"></script>
+    <script src="ohmylook/jquery_002.js"></script>
+    <script type="text/javascript" src="ohmylook/jquery.js"></script>
+    <script type="text/javascript" src="ohmylook/canvas.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#FAF9F7', '#94DEE2', '#f6d0da'],
+                anchors: ['hello', 'about', 'contact'],
+                css3: true,
+                scrollingSpeed: 1000
+            });
+
+        });
+    </script>
+    
+</head>
+<body class="fp-viewing-3rdPage" style="overflow: hidden; height: 100%;">
+<div class="fullpage-wrapper" style="height: 100%; position: relative; transition: all 1000ms ease 0s; transform: translate3d(0px, -1314px, 0px);" id="fullpage">
+ 
+          
+    <div data-anchor="hello" style="height: 657px;"class="section">
+        <div id="navi">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div id="infoi">  
+               
+         </div>
+    </div>
+
+    <div data-anchor="about" style="height: 657px;"  class="section">
+        
+        <div align="center">
+            <img src="ohmylook/trim.png">
+        </br></br></br></br></br></br>
+            <article>
+             <p> We believe in art We believe in art We believe in art We believe in art We believe in art</p>
+               <p> We believe in art </p>
+                <p> We believe in art </p>
+                 <p> We believe in art </p>
+                  <p> We believe in art </p>
+            </article>
+             </br></br></br></br></br></br>
+             <img src="ohmylook/trim2.png">
+        </div>
+    </div>
+
+    <div data-anchor="contact" style="height: 657px;" class="section">
+        <div align="center">
+            
+            <a href="https://vk.com/annasnezhko" target="_blank"> <img src="ohmylook/vk.png"  width="122" height="122"> </a>
+            <a href="https://www.instagram.com/annasnezhko" target="_blank"> <img src="ohmylook/instagram.png"  width="122" height="122"> </a>
+            <a href="https://www.facebook.com/anya.snezhko" target="_blank"> <img src="ohmylook/facebook.png"  width="122" height="122"> </a>
+           <article>
+             <p>+38 063 105 37 05</p>
+             <p>anna.snezhko.working@gmail.com</p>
+           </article>
+       </div>  
+    </div>
+
+</div>
+</body></html>
