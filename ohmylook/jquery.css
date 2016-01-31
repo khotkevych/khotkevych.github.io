@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'dd'; 
+    src: url('Dewberry_bold.ttf'); 
+   }
+
+@font-face {
     font-family: 'dewberrybold';
     src: url('fonts/dewberry_bold-webfont.eot');
     src: url('fonts/dewberry_bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -13,13 +18,42 @@
 canvas {
 	display: inline;
 }
+.row {
+  display: flex; /* equal height of the children */
+}
 
+.col {
+  flex: 1; /* additionally, equal width */
+  
+  padding: 1em;
+  /*border: solid;*/
+}
 article{
-font-family: 'dewberrybold';
+font-family: 'dd';
 color: #FAF9F7;
 font-size: 30px;
-line-height: 0.1em;
+line-height: 0.9em;
 }
+
+article.text{
+font-family: 'dd';
+color: #FAF9F7;
+font-size: 30px;
+line-height: 0.9em;
+text-align: justify;
+margin-left:250px;
+margin-right:250px;
+}
+
+article.intro{
+font-family: 'dd';
+color: #94DEE2;
+font-size: 43px;
+line-height: 0.1em;
+font-weight: 900; 
+margin-top:-50px;
+}
+
 #navi,
 #infoi {
   width: 100%;
