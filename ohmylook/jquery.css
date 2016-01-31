@@ -24,9 +24,7 @@ canvas {
 
 .col {
   flex: 1; /* additionally, equal width */
-  
   padding: 1em;
-  /*border: solid;*/
 }
 article{
 font-family: 'dd';
@@ -41,8 +39,8 @@ color: #FAF9F7;
 font-size: 30px;
 line-height: 0.9em;
 text-align: justify;
-margin-left:250px;
-margin-right:250px;
+margin-left:18%;
+margin-right:18%;
 }
 
 article.intro{
@@ -51,7 +49,7 @@ color: #94DEE2;
 font-size: 43px;
 line-height: 0.1em;
 font-weight: 900; 
-margin-top:-50px;
+margin-top:-3%;
 }
 
 #navi,
