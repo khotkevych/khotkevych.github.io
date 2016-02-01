@@ -22,8 +22,8 @@ line-height: 0.9em;
 }
 article.text{
 text-align: justify;
-margin-left:18%;
-margin-right:18%;
+margin-left:10%;
+margin-right:10%;/*18% */
 font-size: 180%;
 }
 
