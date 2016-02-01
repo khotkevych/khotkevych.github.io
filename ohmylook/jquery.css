@@ -22,17 +22,15 @@ body{
   margin: 30% auto;
   width: auto;
   display: block;
- 
-}
+    }
 }
      
-    }
 img.photo{
  max-width: 100%;
 
   max-height: 100%;
 
-  margin: 10% auto;
+  margin: 5% auto;
 
   width: auto;
 
@@ -57,7 +55,7 @@ color: #94DEE2;
 font-size: 43px;
 line-height: 0.1em;
 font-weight: 900; 
-margin-top:-3%;
+margin-top:-1%;
 }
 
 #layer1,
