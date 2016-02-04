@@ -68,7 +68,8 @@ font-size: 150%;
 
 div.container {
     background :url(./crw.png) 100% 100% no-repeat;
-	height: 86px;
+    height: 59px;
+	width: 86px;
     background-size:cover;
   }
   
