@@ -37,7 +37,7 @@ font-size: 43px;
 article.text{
 margin-left:10%;
 margin-right:10%;
-font-size: 120%;
+font-size: 180%;
 }
 }
 
@@ -58,13 +58,13 @@ font-size: 120%;
 }	
 
 article.intro{
-font-size: 24px;
+font-size: 100%;
 }
 
 article.text{
 margin-left:2%;
 margin-right:2%;
-font-size: 100%;
+font-size: 150%;
 }
 
 img.footer{
