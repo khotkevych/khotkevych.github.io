@@ -67,10 +67,8 @@ font-size: 150%;
 }
 
 div.container {
-    background-image:url(./crw.png);
-	width: 100px;
-    height: 100px;
-    background-size:100px;
+    background-image:url(./crw.png) no-repeat;
+	
   }
   
 img.hiding{
