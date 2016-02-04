@@ -67,6 +67,7 @@ font-size: 150%;
 }
 
 div.container {
+top:0
     background :url(./crw.png) 100% 100% no-repeat;
     height: 59px;
 	width: 86px;
