@@ -24,7 +24,7 @@ body{
   display: block;
     }
 }
-     @media screen, handheld  and (orientation : landscape){
+     @media screen, all  and (orientation : landscape){
 img.photo{
  max-width: 100%;
  max-height: 100%;
