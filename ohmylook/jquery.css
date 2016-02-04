@@ -31,13 +31,13 @@ img.icon{
 }	
 
 article.intro{
-font-size: 43px;
+font-size: 200%;
 }
 
 article.text{
 margin-left:10%;
 margin-right:10%;
-font-size: 280%;
+font-size: 240%;
 }
 }
 
