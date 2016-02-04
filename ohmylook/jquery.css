@@ -24,6 +24,7 @@ body{
   width: auto;
   display: block;
     }
+	
 }
 
 /* Landscape */
@@ -46,6 +47,10 @@ img.photo{
  width: auto;
  display: block;
    }
+img.icon{
+   margin-right:3%;
+   margin-top:2%;
+}
 }
 
 article{
