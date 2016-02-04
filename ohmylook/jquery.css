@@ -68,8 +68,9 @@ font-size: 150%;
 
 div.container {
     background-image:url(./crw.png) ;
-    height: 100px;
-    background-size:100px;
+    height: 59px;
+	height: 86px;
+    background-size:100%;
   }
   
 img.hiding{
