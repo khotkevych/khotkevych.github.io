@@ -37,6 +37,7 @@ font-size: 43px;
 article.text{
 margin-left:10%;
 margin-right:10%;
+font-size: 38px;
 }
 }
 
@@ -63,6 +64,10 @@ font-size: 24px;
 article.text{
 margin-left:0%;
 margin-right:0%;
+}
+
+img.footer{
+display:none
 }
 }
 
