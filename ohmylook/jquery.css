@@ -15,7 +15,7 @@ body{
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-@media all and(orientation : portrait) {
+@media handheld and(orientation : portrait) {
     img.photo{
  max-width: 100%;
   max-height: 100%;
@@ -24,7 +24,16 @@ body{
   display: block;
     }
 }
-     @media screen, all  and (orientation : landscape){
+@media handheld  and (orientation : landscape){
+img.photo{
+ max-width: 50%;
+ max-height: 50%;
+ margin: 1%;
+ width: auto;
+ display: block;
+}
+}
+@media screen{
 img.photo{
  max-width: 100%;
  max-height: 100%;
