@@ -70,7 +70,7 @@ div.container {
     background :url(./crw.png) 100% 100% no-repeat;
     width: 59px;
 	height: 86px;
-    background-size:contain;
+    background-size:cover;
   }
   
 img.hiding{
