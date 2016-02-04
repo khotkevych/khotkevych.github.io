@@ -33,6 +33,11 @@ img.icon{
 article.intro{
 font-size: 43px;
 }
+
+article.text{
+margin-left:10%;
+margin-right:10%;
+}
 }
 
 /* Landscape */
@@ -52,7 +57,12 @@ font-size: 43px;
 }	
 
 article.intro{
-font-size: 20px;
+font-size: 24px;
+}
+
+article.text{
+margin-left:0%;
+margin-right:0%;
 }
 }
 
@@ -73,6 +83,11 @@ img.icon{
 article.intro{
 font-size: 43px;
 }
+
+article.text{
+margin-left:10%;
+margin-right:10%;
+}
 }
 
 article{
@@ -83,8 +98,6 @@ line-height: 0.9em;
 }
 article.text{
 text-align: justify;
-margin-left:10%;
-margin-right:10%;/*18% */
 font-size: 180%;
 }
 
