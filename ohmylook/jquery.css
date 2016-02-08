@@ -67,7 +67,7 @@ font-size: 150%;
 }
 
 div.container {
-margin-top:-5%;
+    margin-top:-5%;
     background :url(./crw.png) 100% 100% no-repeat;
     height: 59px;
 	width: 86px;
@@ -103,9 +103,9 @@ font-size: 250%;
 }
 
 article.text{
-margin-left:10%;
-margin-right:10%;
-font-size: 180%;
+margin-left:5%;
+margin-right:5%;
+font-size: 160%;
 }
 }
 
