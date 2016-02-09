@@ -97,6 +97,11 @@ img.icon{
 	width: 20vmin;
 }
 
+img.link{
+	width: 19vmin;
+	height: 19vmin;
+}
+
 article.intro{
 	font-size: 6vmin;
 	margin-top:-3%;
@@ -105,7 +110,11 @@ article.intro{
 article.text{
 	margin-left:5%;
 	margin-right:5%;
-	font-size: 4.0vmin;
+	font-size: 4vmin;
+}
+
+article.mail{
+	font-size: 4.6vmin;
 }
 }
 
