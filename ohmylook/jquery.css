@@ -17,12 +17,14 @@ body{
 
 /* Portrait */
 @media only screen and (min-device-width: 200px) and (max-device-width: 900px) and (orientation: portrait) { 
-    img.photo{
- max-width: 100%;
+img.photo{
+ /*max-width: 100%;
   max-height: 100%;
   margin: 30% auto;
-  display: block;
-    }
+  display: block;*/
+	width: 40vw;
+	margin: 5%
+}
 
 img.icon{
    margin-right:3%;
@@ -30,7 +32,7 @@ img.icon{
 }	
 
 article.intro{
-font-size: 4vw 3vh;
+font-size: 300%;
 }
 
 article.text{
@@ -42,16 +44,16 @@ font-size: 2vh;
 
 /* Landscape */
 @media only screen and (min-device-width: 200px) and (max-device-width: 900px) and (orientation: landscape) { 
-    img.photo{
+ img.photo{
  max-width: 50%;
   max-height: 50%;
   margin: 1% auto;
   width: auto;
   display: block;
   margin-top:10%;
-    }
+ }
 	
-	img.icon{
+img.icon{
    margin-right:3%;
    margin-top:10%;
 }	
@@ -79,40 +81,36 @@ display: none
 }
 }
 
-/* Laptop */
+ /*Laptop */
 @media screen and (min-device-width: 1000px)  { 
 img.hiding{
 	width: 20%;
 	height: 20%;
 }
+
 div.container {
     margin-top:-3%;
-  }
+}
+
 img.photo{
- max-width: 100%;
- min-width: 20%;
- max-height: 100%;
- margin: 5% auto;
- width: auto;
- display: block;
-   }
+	width: 40vw;
+	margin: 5%
+}
+
 img.icon{
-   margin-right:3%;
-   margin-top:2%;
-    max-width: 100%;
- max-height: 100%;
-   width:auto;
-   display: block;
+	margin-right:3%;
+	margin-top:2%;
+	width: 10vw;
 }
 
 article.intro{
-font-size: 3vw;
+	font-size: 3vw;
 }
 
 article.text{
-margin-left:5%;
-margin-right:5%;
-font-size: 2vw;
+	margin-left:5%;
+	margin-right:5%;
+	font-size: 2vw;
 }
 }
 
