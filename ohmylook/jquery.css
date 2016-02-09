@@ -39,10 +39,6 @@ margin-right:10%;
 font-size: 2vh;
 }
 
-img.link{
-	width: 19vmin;
-	height: 19vmin;
-}
 }
 
 /* Landscape */
@@ -80,10 +76,6 @@ img.hiding{
 display: none
 }
 
-img.link{
-	width: 19vmin;
-	height: 19vmin;
-}
 }
 
  /*Laptop */
@@ -107,11 +99,6 @@ img.icon{
 	width: 20vmin;
 }
 
-img.link{
-	width: 19vmin;
-	height: 19vmin;
-}
-
 article.intro{
 	font-size: 6vmin;
 	margin-top:-3%;
@@ -126,6 +113,11 @@ article.text{
 article.mail{
 	font-size: 4.6vmin;
 }
+}
+
+img.link{
+	width: 19vmin;
+	height: 19vmin;
 }
 
 article{
