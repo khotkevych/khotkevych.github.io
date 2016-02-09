@@ -38,6 +38,11 @@ margin-left:10%;
 margin-right:10%;
 font-size: 2vh;
 }
+
+img.link{
+	width: 19vmin;
+	height: 19vmin;
+}
 }
 
 /* Landscape */
@@ -73,6 +78,11 @@ div.container {
   
 img.hiding{
 display: none
+}
+
+img.link{
+	width: 19vmin;
+	height: 19vmin;
 }
 }
 
