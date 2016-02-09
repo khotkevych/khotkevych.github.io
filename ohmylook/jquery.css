@@ -79,8 +79,7 @@ display: none
  /*Laptop */
 @media screen and (min-device-width: 1000px)  { 
 img.hiding{
-	width: 20%;
-	height: 20%;
+	width: 45vmin;
 }
 
 div.container {
@@ -106,7 +105,7 @@ article.intro{
 article.text{
 	margin-left:5%;
 	margin-right:5%;
-	font-size: 4.2vmin;
+	font-size: 4.0vmin;
 }
 }
 
