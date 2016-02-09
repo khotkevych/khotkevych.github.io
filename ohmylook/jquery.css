@@ -23,12 +23,13 @@ img.photo{
   margin: 30% auto;
   display: block;*/
 	width: 40vh;
-	margin: 15%
+	margin: 25%
 }
 
 img.icon{
-   margin-right:3%;
-   margin-top:4%;
+  margin-right:3%;
+  margin-top:4%;
+	width: 10vw;
 }	
 
 article.intro{
