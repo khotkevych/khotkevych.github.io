@@ -50,6 +50,7 @@ font-size: 2vh;
   margin: 1% auto;
   width: auto;
   display: block;
+  
   */
   margin: 30% auto;
   margin-top:10%;
@@ -59,7 +60,7 @@ font-size: 2vh;
 img.icon{
    margin-right:3%;
    margin-top:10%;
-   width: 10vw;
+   width: 15vh;
 }	
 
 article.intro{
