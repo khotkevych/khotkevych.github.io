@@ -99,14 +99,14 @@ img.icon{
 }
 
 article.intro{
-	font-size: 3vw;
+	font-size: 6vmin;
 	margin-top:-3%;
 }
 
 article.text{
 	margin-left:5%;
 	margin-right:5%;
-	font-size: 2vw;
+	font-size: 4.2vmin;
 }
 }
 
