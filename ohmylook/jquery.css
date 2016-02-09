@@ -20,11 +20,9 @@ body{
 img.photo{
  /*max-width: 100%;
   max-height: 100%;
-  margin: 30% auto;
   display: block;*/
 	width: 40vh;
-	margin: 25%;
-	 display: block;
+	margin: 30% auto;
 }
 
 img.icon{
