@@ -81,6 +81,10 @@ display: none
 
 /* Laptop */
 @media screen and (min-device-width: 1000px)  { 
+img.hiding{
+	width: 20%;
+	height: 20%;
+}
 div.container {
     margin-top:-3%;
   }
@@ -143,10 +147,6 @@ margin-top:-1%;
 }
 #layer3 {
   z-index: 5;
-}
-img.hiding{
-width: 20%;
-  height: 20%;
 }
 .fp-section.fp-table {
     display: table;
