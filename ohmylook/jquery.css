@@ -87,14 +87,14 @@ div.container {
 }
 
 img.photo{
-	width: 40vw;
+	width: 80vmin;
 	margin: 3%
 }
 
 img.icon{
 	margin-right:3%;
 	margin-top:2%;
-	width: 10vw;
+	width: 20vmin;
 }
 
 article.intro{
