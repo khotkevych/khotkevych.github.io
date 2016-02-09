@@ -112,6 +112,7 @@ img.icon{
 
 article.intro{
 	font-size: 3vw;
+	margin-top:-1%;
 }
 
 article.text{
@@ -135,7 +136,7 @@ article.intro{
 color: #94DEE2;
 line-height: 0.1em;
 font-weight: 900; 
-margin-top:-1%;
+
 }
 
 #layer1,
