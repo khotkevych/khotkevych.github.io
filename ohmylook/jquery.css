@@ -2,6 +2,16 @@
     font-family: 'dewberry'; 
     src: url('Dewberry_bold.ttf'); 
    }
+   
+ @font-face {
+    font-family: 'parker'; 
+    src: url("Parker.ttf"); 
+}
+   
+@font-face {
+    font-family: 'dot'; 
+    src: url("Bemount.ttf"); 
+   }
 canvas {
 	display: inline;
 }
@@ -127,13 +137,18 @@ font-size: 30px;
 line-height: 0.9em;
 }
 article.text{
+font-family: 'parker';
 text-align: justify;
+}
+span{
+font-family: 'dot';
 }
 
 article.intro{
 color: #94DEE2;
 line-height: 0.1em;
 font-weight: 900; 
+font-family: 'parker';
 }
 
 #layer1,
