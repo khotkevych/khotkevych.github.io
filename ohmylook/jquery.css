@@ -25,7 +25,7 @@ body{
 /* Portrait */
 @media only screen and (min-device-width: 200px) and (max-device-width: 900px) and (orientation: portrait) { 
 img.photo{
-	width: 55vmin;
+	width: 65vmin;
 	margin-top:25%;
 }
 
