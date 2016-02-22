@@ -5,13 +5,9 @@
    
  @font-face {
     font-family: 'parker'; 
-    src: url("Parker.ttf"); 
+    src: url("8784.ttf"); 
 }
    
-@font-face {
-    font-family: 'dot'; 
-    src: url("Bemount.ttf"); 
-   }
 canvas {
 	display: inline;
 }
@@ -117,7 +113,7 @@ article.intro{
 article.text{
 	margin-left:5%;
 	margin-right:5%;
-	font-size: 4vmin;
+	font-size: 4.4vmin;
 }
 
 article.mail{
@@ -139,9 +135,7 @@ line-height: 0.9em;
 article.text{
 font-family: 'parker';
 text-align: justify;
-}
-span{
-font-family: 'dot';
+line-height: 1em;
 }
 
 article.intro{
