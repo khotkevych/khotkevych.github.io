@@ -25,7 +25,7 @@ body{
 /* Portrait */
 @media only screen and (min-device-width: 200px) and (max-device-width: 900px) and (orientation: portrait) { 
 img.photo{
-	width: 45vh;
+	width: 45vhmin;
 	margin-top:30%;
 }
 
@@ -52,7 +52,7 @@ article.text{
 @media only screen and (min-device-width: 200px) and (max-device-width: 900px) and (orientation: landscape) { 
 img.photo{
 	margin-top:10%;
-	width: 35vw;
+	width: 35vmin;
 }
 	
 img.icon{
